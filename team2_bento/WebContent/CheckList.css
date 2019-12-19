@@ -1,14 +1,16 @@
 @charset "UTF-8";
 #hozon{
 	position:fixed;
-	left: 80%;
-	font-size: 100%;
+	left: 90%;
 }
 table{
-	width:80%;
-	
+	width:60%;
+	font-size:25px;
+	margin-left:170px;
 }
 body{
-	background-color:#F0FFFF;
-	font-size: 25px;
+	background-color:#FAEBD7;
+}
+caption{
+	text-align:left;
 }

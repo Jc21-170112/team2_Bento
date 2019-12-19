@@ -10,15 +10,15 @@
 <body>
 <div id ="header">
 <div id="nav">
-<h3><a href="http://localhost:8080/team2_Bento/UserOrder.jsp">切替</a></h3>
+<h3 ><a href="http://localhost:8080/team2_Bento/UserOrder.jsp">切替</a></h3>
 <br>
-<h3><a href="Order.html">注文内容確認画面</a></h3>
+<h3><a href="http://localhost:8080/team2_Bento/Order.jsp">注文内容確認画面</a></h3>
 <br>
-<h3><a href=".html">注文履歴（社員)</a></h3>
+<h3><a href="http://localhost:8080/team2_Bento/Employee.jsp">注文履歴（社員)</a></h3>
 <br>
 <h3><a href="http://localhost:8080/team2_Bento/DaysDate.jsp">注文履歴（日付）</a></h3>
 <br>
-<h3><a href="info.html">チェックリストへ</a></h3>
+<h3><a href="http://localhost:8080/team2_Bento/CheckList.jsp">チェックリストへ</a></h3>
 <ul>
 	<li><a href="info.html">第1部署</a></li>
 	<br>

@@ -1,13 +1,22 @@
 @charset "UTF-8";
+
+H1{
+	margin-left:500px;
+}
+
 #selects{	
 	position: absolute;
-	left:83%;		
+	left:87%;
+	top:50px;		
 }
 table{
-	width:80%;
-	
+	width:60%;
+	margin-left:170px;
+	font-size:25px;
 }
 body{
-	background-color:#F0FFFF;
-	font-size: 25px;
+	background-color:#FAEBD7;
+}
+caption{
+	text-align:left;
 }

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+	background-color: #FAEBD7;
+}
+a#modoru{
+text-align:right;
+display:block;
+}
+button#b{
+width:100px;
+height: 60px;
+font-size: 25px;
+background-color:#87CEFA;
+border-color:#FFDEAD;
+color:white;
+margin-top:-90px;
+}
+h1{
+text-align:center;
+}
+
+p{
+font-size:25px;
+margin-left:470px;
+}
+table{
+width:60%;
+font-size: 25px;
+background-color:white;
+margin-left:170px;
+}
+caption{
+	text-align:left
+}
+#T1{
+	background-color:blue;
+	color:white;
+}

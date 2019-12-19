@@ -1,21 +1,30 @@
 body{
-	background-color: #F0FFFF;
+	background-color: #FAEBD7;
 }
+
 
 #bo{
 	position: absolute;
-	margin-left:900px;
-	top:165px;
+	left:87%;
+	top:140px;
 }
 h1{
 text-align:center;
 }
 
 p{
-margin-left:320px;
+font-size: 25px;
+margin-right:730px;
 }
 table{
-	width:550px;
+	width:60%;
 	font-size: 25px;
 	background-color:white;
+	margin-left:170px;
+}
+B1{
+	font-size:20px;
+}
+caption{
+	text-align: left;
 }

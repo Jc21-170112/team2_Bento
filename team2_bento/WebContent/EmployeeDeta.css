@@ -1,14 +1,22 @@
 @charset "UTF-8";
 input{
 	position:fixed;
-	left: 83%;
-	font-size:40px;
+	left: 88%;
+	font-size:25px;
+}
+
+h1{
+text-align:center;
 }
 table{
-	width:80%;
-	
+	width:60%;
+	text-align:center;
+	font-size: 25px;
+	margin-left:170px;
 }
 body{
-	background-color: #F0FFFF;
-	font-size: 25px;
+	background-color:#FAEBD7;
+}
+caption{
+	text-align:left;
 }
