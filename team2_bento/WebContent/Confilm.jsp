@@ -35,8 +35,8 @@ List <String[]> list = (List<String[]>)request.getAttribute("list");
 本日分の注文は確定してもよろしいですか
 </pre>
 <br>
-<pre>
-<button>キャンセル</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>確定</button>
+<pre><form method="get" action="./CheckList">
+<button>キャンセル</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>確定</button></form>
 </pre>
 </body>
 </html>
