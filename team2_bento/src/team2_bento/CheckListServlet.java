@@ -45,7 +45,7 @@ public class CheckListServlet extends HttpServlet {
 		Connection connection=DriverManager.getConnection(url,id,pass);
 		PreparedStatement st = 
 				connection.prepareStatement(
-					"select EMP_NAME,EMP_ORDER.EMP_ID,BENTO_NAME,sum(QTY) as qty from (emp_order left outer join emp on(emp_order.emp_ID=emp.emp_ID)) left outer join bento on(emp_order.bento_ID=bento.bento_ID) group by emp_name,emp_order.emp_ID,bento_name"
+					"select EMP_NAME,EMP_ORDER.EMP_ID,BENTO_NAME,sum(QTY) as qty from (emp_order left outer join emp on(emp_order.emp_ID=emp.emp_ID)) left outer join bento on(emp_order.bento_ID=bento.bento_ID) group by emp_name,emp_order.emp_ID,bento_name order by emp_order.emp_ID asc"
 					);
 		ResultSet rs = st.executeQuery();
 		ArrayList<String[]>list= new ArrayList<String[]>();
