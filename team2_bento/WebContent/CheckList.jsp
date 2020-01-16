@@ -13,7 +13,7 @@
 <%List<String[]> list = (List<String[]>)request.getAttribute("list");
  %>
 <h1>oo部署</h1>
-
+<form action="" method="get">
 <table align = "center"border="1" bgcolor="#FFFFFF">
 <tr>
 <th>名前</th>
@@ -27,13 +27,19 @@
 <th><%= s[1] %></th>
 <th><%= s[2] %></th>
 <th><%= s[3] %>個</th>
-<th><input type="checkbox"></th>
+<th><% if(s[4].equals("1")){ %>
+<input type="checkbox" checked="checked" name=<%= s[5] %> value=<%= s[5] %>>
+<% }else{ %>
+<input type="checkbox" name=<%= s[5] %> value=<%= s[5] %> >
+<% } %>
+</th>
 </tr>
 <% } %>
 
 </table>
-<div id="hozon"> 
-<input type="submit" value="保存" style="width:100px;height:50px"/>
+<div id="hozon">
+<input type="submit" value="保存する" style="width:100px;height:50px"/>
 </div>
+</form>
 </body>
 </html>
